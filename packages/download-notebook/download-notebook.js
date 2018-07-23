@@ -1,3 +1,8 @@
+#!/usr/bin/env node
+const {get} = require('https')
+const {readFileSync, createWriteStream} = require('fs')
+const env = process.env
+
 function downloadNotebook() {
   return new Promise((resolve, reject) => {
     const pkg = JSON.parse(readFileSync('package.json', 'utf8'))
@@ -22,3 +27,8 @@ function downloadNotebook() {
     req.on('error', (e) => { throw e })
   })
 }
+
+downloadNotebook().then(() => {}).catch(err => {
+  console.error('Error downloading notebook: ', err)
+  console.trace()
+})
