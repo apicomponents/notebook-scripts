@@ -1,10 +1,10 @@
 {
-  "name": "@apicomponents/download-notebook",
+  "name": "@apicomponents/get-notebook",
   "version": "1.0.0",
   "description": "Download an Observable notebook",
   "main": "download-notebook.js",
   "bin": {
-    "download-notebook": "./download-notebook.js"
+    "get-notebook": "./get-notebook.js"
   },
   "scripts": {},
   "keywords": [
