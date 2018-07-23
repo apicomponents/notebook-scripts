@@ -1,0 +1,9 @@
+{
+  "name": "notebook-scripts",
+  "private": true,
+  "notebookScripts": {
+    "notebook": "https://beta.observablehq.com/@benatkin/notebook-scripts"
+  },
+  "scripts": {
+  }
+}

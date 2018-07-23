@@ -1,5 +1,5 @@
 {
-  "name": "download-notebook",
+  "name": "@apicomponents/download-notebook",
   "version": "1.0.0",
   "description": "Download an Observable notebook",
   "main": "download-notebook.js",
