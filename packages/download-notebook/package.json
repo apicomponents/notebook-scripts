@@ -1,0 +1,19 @@
+{
+  "name": "download-notebook",
+  "version": "1.0.0",
+  "description": "Download an Observable notebook",
+  "main": "download-notebook.js",
+  "bin": {
+    "download-notebook": "./download-notebook.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "observable",
+    "literate-programming"
+  ],
+  "author": "Benjamin Atkin <ben@benatkin.com> (https://github.com/benatkin)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apicomponents/notebook-scripts.git"
+  }
+}
